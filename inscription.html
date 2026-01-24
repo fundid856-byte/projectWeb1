@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inscription -  Complexe scolaire la Foi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css">
+  
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- Barre de navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><i class="bi bi-mortarboard-fill"></i> Complexe Scolaire la Foi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="lien" href="index.html">Accueil</a></li>
+          <li class="nav-item"><a class="lien active" href="inscription.html">Inscription</a></li>
+          <li class="nav-item"><a class="lien" href="dashbord.html">Tableau de bord</a></li>
+          <li class="nav-item"><a class="lien" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Formulaire -->
+  <div class="container my-5">
+    <h2 class="text-center mb-4"><i class="bi bi-pencil-square"></i> Formulaire d’inscription</h2>
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="nom" class="form-label">Nom</label>
+        <input type="text" class="form-control" id="nom" placeholder="Entrez le nom">
+      </div>
+      <div class="col-md-6">
+        <label for="prenom" class="form-label">Prénom</label>
+        <input type="text" class="form-control" id="prenom" placeholder="Entrez le prénom">
+      </div>
+      <div class="col-md-6">
+        <label for="dateNaissance" class="form-label">Date de naissance</label>
+        <input type="date" class="form-control" id="dateNaissance">
+      </div>
+      <div class="col-md-6">
+        <label for="genre" class="form-label">Genre</label>
+        <select class="form-select" id="genre">
+          <option selected disabled>Choisir...</option>
+          <option>Masculin</option>
+          <option>Féminin</option>
+        </select>
+      </div>
+      <div class="col-md-6">
+        <label for="classe" class="form-label">Classe demandée</label>
+        <select class="form-select" id="classe">
+          <option selected disabled>Choisir...</option>
+          <option>1ère maternelle</option>
+          <option>2ème maternelle</option>
+          <option>3ème maternelle</option>
+          <option >1ère primaire</option>
+          <option >2ème primaire</option>
+          <option>3ème primaire</option>
+          <option>4ème primaire</option>
+          <option>5ème primaire</option>
+          <option>6ème primaire</option>
+          <option>7ème primaire</option>
+          <option>8ème primaire</option>
+        </select>
+      </div>
+      <div class="col-md-6">
+        <label for="email" class="form-label">Email du parent</label>
+        <input type="email" class="form-control" id="email" placeholder="exemple@domaine.com">
+      </div>
+      <div class="col-12">
+        <label for="adresse" class="form-label">Adresse</label>
+        <input type="text" class="form-control" id="adresse" placeholder="Adresse complète">
+      </div>
+      <div class="col-12 text-center">
+        <button type="submit" class="btn btn-success btn-lg"><i class="bi bi-check-circle"></i> Soumettre l’inscription</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Pied de page -->
+  <footer class="bg-dark ">
+    <div class="pied">
+        <div class="aligne">
+        <h5>Note</h5>
+        <p>Ce site web permet aux élèves et parents</p>
+        <p>de s'inscrire facilement en ligne</p>
+      </div>
+      <div class="aligne" id="aligne">
+        <h5>Contact</h5>
+        <p><i class="bi bi-telephone-fill"></i> +243 89 76 32 124/p>
+        <p><i class="bi bi-envelope"></i> lafoi.ecole@gmail.com</p>
+      </div>
+      <p>&copy; 2026 C.S la Foi. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+
+  
+</body>
+</html>
